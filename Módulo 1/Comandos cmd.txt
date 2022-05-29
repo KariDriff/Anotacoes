@@ -1,0 +1,14 @@
+>cls              | "CLear Screen", Limpa o cmd.
+>echo             | Faz o cmd falar o que você digitar após o comando.
+>echo [wd] > [fl] | Faz o cmd redirecionar o que você digitou para um arquivo.
+———————————————————
+>mkdir            | "MaKe DIRectory", Cria uma pasta.
+>cd               | "Change Directory", Muda para a pasta especificada.
+>cd ..            | Volta para a pasta anterior.
+>dir              | "DIRectory", Mostra os arquivos e pastas na pasta atual.
+>del              | "DELete", deleta apenas arquivos. Use a flag /q para não aparecer a mensagem de confirmação.
+>rmdir [dr] /s    | "ReMove DIRectory", deleta apenas pastas. Use a flag /q para não aparecer a mensagem de confirmação.
+———————————————————
+[TC] TAB          | Lista, de acordo com o que escreveu, os arquivos/pastas de uma pasta. Use Shift+TAB para a direção contrária.
+[TC] ↑/↓          | Lista, de um em um, para cima ou para baixo, o histórico de comandos feitos.
+———————————————————
