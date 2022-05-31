@@ -1,0 +1,13 @@
+Todo arquivo deve começar com:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title Example</title>
+    </head>
+    <body>
+        Body example
+    </body>
+</html>
+
+A partir daí, a criatividade é o limite.
