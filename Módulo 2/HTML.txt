@@ -24,12 +24,16 @@ A partir daí, a criatividade é o limite.
 <article>               | Um "conteúdo interessante" da sua página.
 <aside>                 | Conteúdo relacionado ao principal.
 <footer>                | Rodapé da página ou de uma <section> dela.
+—————————————————————————
 <h1> - <h6>             | Títulos da página e de uma <section> dela. Use apenas um <h1> por página.
-<p>                     | Parágrafos.
+<p>                     | Organiza o texto em um parágrafo.
+<ul>                    | Insere uma lista sem ordem.
+<ol>                    | Insere uma lista com ordem.
+<li>                    | Item das duas listas acima.
 —————————————————————————
 <meta [</>]>            | Metadados do arquivo; um exemplo é o charset.
 <a [</>]                | Links.
-<img [</>]>             | Inserir imagens.
+<img [</>]>             | Insere uma imagem.
 <lang [</>]>            | Diz ao navegador o idioma usado na página. Use pt-br.
 —————————————————————————
 <meta charset=[</>]>    | Diz ao navegador qual a codificação de caracteres. Use utf-8.
