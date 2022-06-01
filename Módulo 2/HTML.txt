@@ -29,10 +29,12 @@ A partir daí, a criatividade é o limite.
 —————————————————————————
 <meta [</>]>            | Metadados do arquivo; um exemplo é o charset.
 <a [</>]                | Links.
+<img [</>]>             | Inserir imagens.
 <lang [</>]>            | Diz ao navegador o idioma usado na página. Use pt-br.
 —————————————————————————
 <meta charset=[</>]>    | Diz ao navegador qual a codificação de caracteres. Use utf-8.
 <a href="[</>]">        | Relaciona um link a um texto.
 <a href="mailto:[</>]"> | Ao relacioná-lo a um texto, o mesmo irá te redirecionar ao envio de um E-Mail ao E-Mail especificado.
 <a target="[</>]">      | Colocado logo após href="", diz como o link será aberto. Use _blank para abrir em outra guia.
-
+<img src="[</>]">       | Origem da imagem (de onde o comando vai retirar).
+<img alt="[</>]">       | A descrição da imagem, caso ela não carregue.
