@@ -1,0 +1,36 @@
+#                    | Relaciona os comandos entre {} ao id do comando HTML.
+.                    | Relaciona os comandos entre {} à classe do comando HTML.
+——————————————————————
+color:               | Muda a cor de algo.
+background:          | Muda o fundo (normalmente usando em body).
+padding:             | Muda o espaçamento entre o conteúdo e a borda.
+border:              | Muda a cor, tipo e largura da borda do padding.
+margin:              | Muda o espaçamento entre a borda e a margem.
+width:               | Muda a largura do objeto (normalmente usado em body).
+max-width:           | Define a largura máxima do objeto.
+font-size:           | Muda o tamanho da fonte de um elemento de texto.
+font-style:          | Muda o estilo da fonte de um elemento de texto.
+font-weight:         | Muda o "peso" da fonte.
+font-family:         | Muda a família de fonte.
+text-transform:      | Transforma o texto.
+text-decoration:     | Decora o texto, colocando linhas.
+text-align:          | Alinha o texto à esquerda, direita, cima, baixo ou centro.
+list-style-type:     | Muda o marcador da lista.
+list-style-image:    | Muda o marcador da lista para uma imagem. Use url("[fl dir]") para especificar a imagem.
+——————————————————————
+background-color:    | Muda a cor do fundo.
+backgroung-image:    | Usa uma imagem como fundo.
+background-position: | Muda a posição do fundo.
+padding-top:         | Muda o espaçamento de cima.
+padding-bottom:      | Muda o espaçamento de baixo.
+padding-right:       | Muda o espaçamento da direita.
+padding-left:        | Muda o espaçamento da esquerda.
+border-top:          | Muda a borda de cima.
+border-bottom:       | Muda a borda de baixo.
+border-right:        | Muda a borda da direita.
+border-left:         | Muda a borda da esquerda.
+border-width:        | Muda a grossura da borda.
+border-color:        | Muda a cor da borda.
+border-style:        | Muda o estilo da borda.
+border-[sd]-[prp]:   | Muda, especificamente, um lado da borda e sua propriedade.
+border-radius:       | Muda o raio da borda da borda (max.: 50%). Segue o mesmo padrão dos comandos acima.

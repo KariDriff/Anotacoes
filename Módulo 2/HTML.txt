@@ -34,6 +34,7 @@ A partir daí, a criatividade é o limite.
 <meta [</>]>            | Metadados do arquivo; um exemplo é o charset.
 <a [</>]                | Links.
 <img [</>]>             | Insere uma imagem.
+<link [</>]>            | Relaciona a página a outro arquivo (normalmente um CSS).
 <lang [</>]>            | Diz ao navegador o idioma usado na página. Use pt-br.
 —————————————————————————
 <meta charset=[</>]>    | Diz ao navegador qual a codificação de caracteres. Use utf-8.
@@ -42,3 +43,7 @@ A partir daí, a criatividade é o limite.
 <a target="[</>]">      | Colocado logo após href="", diz como o link será aberto. Use _blank para abrir em outra guia.
 <img src="[</>]">       | Origem da imagem (de onde o comando vai retirar).
 <img alt="[</>]">       | A descrição da imagem, caso ela não carregue.
+<link rel="[</>]">      | Define o tipo de relacionamento entre a página e outro arquivo.
+<link href="[</>]">     | Caminho para o arquivo.
+<[cmd] id="[</>]">      | Cria uma identificação para o CoManDo especificado, isso faz com que o comando não se repita. (Cheque a anotação no CSS.txt).
+<[cmd] class="[</>]">   | Cria um tipo de comando que pode abrigar vários. (Cheque a anotação no CSS.txt).
