@@ -24,6 +24,7 @@ A partir daí, a criatividade é o limite.
 <article>               | Um "conteúdo interessante" da sua página.
 <aside>                 | Conteúdo relacionado ao principal.
 <footer>                | Rodapé da página ou de uma <section> dela.
+<div>                   | Uma parte genérica da página, normalmente usada para utilizar o CSS nela.
 —————————————————————————
 <h1> - <h6>             | Títulos da página e de uma <section> dela. Use apenas um <h1> por página.
 <p>                     | Organiza o texto em um parágrafo.
