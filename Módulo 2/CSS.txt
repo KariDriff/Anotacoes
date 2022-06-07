@@ -1,25 +1,35 @@
 #                    | Relaciona os comandos entre {} ao id do comando HTML.
 .                    | Relaciona os comandos entre {} à classe do comando HTML.
+*                    | Aplica os comandos entre {} a todo o projeto.
+——————————————————————
+@keyframes           | Permite editar a animação em certos pontos da mesma.
 ——————————————————————
 :hover               | Faz o código entre {} funcionar quando o ponteiro do mouse passar sobre o elemento.
+:checked             | Faz o código entre {} funcionar quando a caixa de seleção estiver marcada.
 ——————————————————————
 cursor:              | Permite controlar o cursor.
 color:               | Muda a cor de algo.
 filter:              | Adiciona um filtro à imagem.
 opacity:             | Muda a opacidade do objeto.
 visibility:          | Muda a visibilidade do objeto.
-content:             |
+content:             | 
 background:          | Muda o fundo (normalmente usando em body).
 padding:             | Muda o espaçamento entre o conteúdo e a borda.
 border:              | Muda a cor, tipo e largura da borda do padding.
 margin:              | Muda o espaçamento entre a borda e a margem.
 position:            | Define a posição de um elemento na página.
 display:             | "Determina o tipo de caixa que é gerada para um elemento.".
+top                  | Determina a posição a partir de cima.
+bottom               | Determina a posição a partir de baixo.
+left                 | Determina a posição a partir da esquerda.
+right                | Determina a posição a partir da direita.
 transition:          | Define a transição entre dois estados do elemento.
+animation:           | Permite mudar as proriedades de uma animação.
 width:               | Muda a largura do objeto (normalmente usado em body).
 height:              | Muda a altura do objeto (normalment usado em body.
 max-width:           | Define a largura máxima do objeto.
 max-height:          | Define a altura máxima do objeto.
+box-sizing:          | Define o tipo de caixa.
 justify-content:     | Alinha os elementos na horizontal.
 align-items:         | Alinha os elementos na vertical.
 flex-direction:      | Define como objetos flex são colocados em um container.
@@ -30,7 +40,7 @@ font-family:         | Muda a família de fonte.
 text-transform:      | Transforma o texto.
 text-decoration:     | Decora o texto, colocando linhas.
 text-align:          | Alinha o texto à esquerda, direita, cima, baixo ou centro.
-letterspaing:        | Define o espaçamento entre letras
+letter-spacing:      | Define o espaçamento entre letras
 list-style-type:     | Muda o marcador da lista.
 list-style-image:    | Muda o marcador da lista para uma imagem. Use url("[fl dir]") para especificar a imagem.
 ——————————————————————

@@ -25,6 +25,7 @@ A partir daí, a criatividade é o limite.
 <aside>                 | Conteúdo relacionado ao principal.
 <footer>                | Rodapé da página ou de uma <section> dela.
 <div>                   | Uma parte genérica da página, normalmente usada para utilizar o CSS nela.
+<main>                  | A parte principal da página.
 —————————————————————————
 <h1> - <h6>             | Títulos da página e de uma <section> dela. Use apenas um <h1> por página.
 <p>                     | Organiza o texto em um parágrafo.
@@ -37,6 +38,8 @@ A partir daí, a criatividade é o limite.
 <img [</>]>             | Insere uma imagem.
 <link [</>]>            | Relaciona a página a outro arquivo (normalmente um CSS).
 <lang [</>]>            | Diz ao navegador o idioma usado na página. Use pt-br.
+<input [</>]>           | Cria uma caixa em que o usuário possa interagir.
+<label [</>]>           | Mostra algo dependendo do <input>.
 —————————————————————————
 <meta charset=[</>]>    | Diz ao navegador qual a codificação de caracteres. Use utf-8.
 <a href="[</>]">        | Relaciona um link a um texto.
@@ -46,5 +49,7 @@ A partir daí, a criatividade é o limite.
 <img alt="[</>]">       | A descrição da imagem, caso ela não carregue.
 <link rel="[</>]">      | Define o tipo de relacionamento entre a página e outro arquivo.
 <link href="[</>]">     | Caminho para o arquivo.
+<input type="[</>]">    | Define o tipo de interação que o usuário pode fazer.
+<label for="[</>]">     | Indica ao quê este comando referencia.
 <[cmd] id="[</>]">      | Cria uma identificação para o CoManDo especificado, isso faz com que o comando não se repita. (Cheque a anotação no CSS.txt).
 <[cmd] class="[</>]">   | Cria um tipo de comando que pode abrigar vários. (Cheque a anotação no CSS.txt).
