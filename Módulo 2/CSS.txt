@@ -19,10 +19,10 @@ border:              | Muda a cor, tipo e largura da borda do padding.
 margin:              | Muda o espaçamento entre a borda e a margem.
 position:            | Define a posição de um elemento na página.
 display:             | "Determina o tipo de caixa que é gerada para um elemento.".
-top                  | Determina a posição a partir de cima.
-bottom               | Determina a posição a partir de baixo.
-left                 | Determina a posição a partir da esquerda.
-right                | Determina a posição a partir da direita.
+top:                 | Determina a posição a partir de cima.
+bottom:              | Determina a posição a partir de baixo.
+left:                | Determina a posição a partir da esquerda.
+right:               | Determina a posição a partir da direita.
 transition:          | Define a transição entre dois estados do elemento.
 animation:           | Permite mudar as proriedades de uma animação.
 width:               | Muda a largura do objeto (normalmente usado em body).

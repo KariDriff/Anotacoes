@@ -37,10 +37,10 @@ A partir daí, a criatividade é o limite.
 <a [</>]                | Links.
 <img [</>]>             | Insere uma imagem.
 <link [</>]>            | Relaciona a página a outro arquivo (normalmente um CSS).
-<lang [</>]>            | Diz ao navegador o idioma usado na página. Use pt-br.
 <input [</>]>           | Cria uma caixa em que o usuário possa interagir.
 <label [</>]>           | Mostra algo dependendo do <input>.
 —————————————————————————
+<html lang="[</>]">     | Diz ao navegadr o idioma da página.
 <meta charset=[</>]>    | Diz ao navegador qual a codificação de caracteres. Use utf-8.
 <a href="[</>]">        | Relaciona um link a um texto.
 <a href="mailto:[</>]"> | Ao relacioná-lo a um texto, o mesmo irá te redirecionar ao envio de um E-Mail ao E-Mail especificado.
