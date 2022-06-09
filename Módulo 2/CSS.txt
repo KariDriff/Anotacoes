@@ -6,6 +6,7 @@
 ——————————————————————
 :hover               | Faz o código entre {} funcionar quando o ponteiro do mouse passar sobre o elemento.
 :checked             | Faz o código entre {} funcionar quando a caixa de seleção estiver marcada.
+::before             | Define como será o elemento antes do acima.
 ——————————————————————
 cursor:              | Permite controlar o cursor.
 color:               | Muda a cor de algo.
@@ -17,7 +18,7 @@ background:          | Muda o fundo (normalmente usando em body).
 padding:             | Muda o espaçamento entre o conteúdo e a borda.
 border:              | Muda a cor, tipo e largura da borda do padding.
 margin:              | Muda o espaçamento entre a borda e a margem.
-position:            | Define a posição de um elemento na página.
+position:            | Define o tipo de posição de um elemento na página.
 display:             | "Determina o tipo de caixa que é gerada para um elemento.".
 top:                 | Determina a posição a partir de cima.
 bottom:              | Determina a posição a partir de baixo.
