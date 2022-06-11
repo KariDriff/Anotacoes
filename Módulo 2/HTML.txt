@@ -37,7 +37,8 @@ A partir daí, a criatividade é o limite.
 <meta [</>]>            | Metadados do arquivo; um exemplo é o charset.
 <a [</>]                | Links.
 <img [</>]>             | Insere uma imagem.
-<link [</>]>            | Relaciona a página a outro arquivo (normalmente um CSS).
+<link [</>]>            | Relaciona a página com um arquivo (normalmente um CSS).
+<script [</>]>          | Relaciona a página com um script (normalmente um JS).
 <input [</>]>           | Cria uma caixa em que o usuário possa interagir.
 <label [</>]>           | Mostra algo dependendo do <input>.
 —————————————————————————
