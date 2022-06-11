@@ -1,9 +1,16 @@
 </> = Espaço de preenchimento
 
-var </> = </>;       | Cria uma variável.
+var </> = </>;       | Cria uma variável global.
+let </> = </>;       | Cria uma variável local.
 const </> = </>;     | Cria uma constante (matemática?).
+
+Tipos de variáveis: 
+Boolean, Null, Undefined, Number, String, Array, Object e Function.
+——————————————————————
 function </>(</>) {} | Cria uma função que executará o código entre {}.
 ——————————————————————
-console.log(</>)     | Faz o código entre () aparecer no terminal.
+console.log(</>);    | Faz o código entre () aparecer no terminal.
 ——————————————————————
-`${</>} </>`         | Cria uma mensagem de texto colocando o valor de uma var, const, etc..
+alert("</>");        | Cria um alerta com a mensagem especificada.
+——————————————————————
+(`${</>} </>`);      | Cria uma mensagem de texto colocando o valor de uma var, const, etc..
