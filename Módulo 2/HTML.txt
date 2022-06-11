@@ -13,45 +13,48 @@ Todo arquivo deve começar com:
 A partir daí, a criatividade é o limite.
 
 [</>] = Lugar de preenchimento.
-—————————————————————————
-<!DOCTYPE html>         | Diz ao navegador que a página lida com a linguagem html.
-<html>                  | Raiz do código.
-<head>                  | A "cabeça" da página.
-<body>                  | O "corpo" da página.
-<title>                 | O título da página.
-<section>               | Seção genérica da página.
-<header>                | Cabeçalho da página ou de uma <section> dela.
-<article>               | Um "conteúdo interessante" da sua página.
-<aside>                 | Conteúdo relacionado ao principal.
-<footer>                | Rodapé da página ou de uma <section> dela.
-<div>                   | Uma parte genérica da página, normalmente usada para utilizar o CSS nela.
-<main>                  | A parte principal da página.
-<nav>                   | Uma seção da página que possui links que levarão a outra parte da página ou outras páginas.
-—————————————————————————
-<h1> - <h6>             | Títulos da página e de uma <section> dela. Use apenas um <h1> por página.
-<p>                     | Organiza o texto em um parágrafo.
-<ul>                    | Insere uma lista sem ordem.
-<ol>                    | Insere uma lista com ordem.
-<li>                    | Item das duas listas acima.
-—————————————————————————
-<meta [</>]>            | Metadados do arquivo; um exemplo é o charset.
-<a [</>]                | Links.
-<img [</>]>             | Insere uma imagem.
-<link [</>]>            | Relaciona a página com um arquivo (normalmente um CSS).
-<script [</>]>          | Relaciona a página com um script (normalmente um JS).
-<input [</>]>           | Cria uma caixa em que o usuário possa interagir.
-<label [</>]>           | Mostra algo dependendo do <input>.
-—————————————————————————
-<html lang="[</>]">     | Diz ao navegadr o idioma da página.
-<meta charset=[</>]>    | Diz ao navegador qual a codificação de caracteres. Use utf-8.
-<a href="[</>]">        | Relaciona um link a um texto.
-<a href="mailto:[</>]"> | Ao relacioná-lo a um texto, o mesmo irá te redirecionar ao envio de um E-Mail ao E-Mail especificado.
-<a target="[</>]">      | Colocado logo após href="", diz como o link será aberto. Use _blank para abrir em outra guia.
-<img src="[</>]">       | Origem da imagem (de onde o comando vai retirar).
-<img alt="[</>]">       | A descrição da imagem, caso ela não carregue.
-<link rel="[</>]">      | Define o tipo de relacionamento entre a página e outro arquivo.
-<link href="[</>]">     | Caminho para o arquivo.
-<input type="[</>]">    | Define o tipo de interação que o usuário pode fazer.
-<label for="[</>]">     | Indica ao quê este comando referencia.
-<[cmd] id="[</>]">      | Cria uma identificação para o CoManDo especificado, isso faz com que o comando não se repita. (Cheque a anotação no CSS.txt).
-<[cmd] class="[</>]">   | Cria um tipo de comando que pode abrigar vários. (Cheque a anotação no CSS.txt).
+——————————————————————————
+<!DOCTYPE html>          | Diz ao navegador que a página lida com a linguagem html.
+<html>                   | Raiz do código.
+<head>                   | A "cabeça" da página.
+<body>                   | O "corpo" da página.
+<title>                  | O título da página.
+<section>                | Seção genérica da página.
+<header>                 | Cabeçalho da página ou de uma <section> dela.
+<article>                | Um "conteúdo interessante" da sua página.
+<aside>                  | Conteúdo relacionado ao principal.
+<footer>                 | Rodapé da página ou de uma <section> dela.
+<div>                    | Uma parte genérica da página, normalmente usada para utilizar o CSS nela.
+<main>                   | A parte principal da página.
+<nav>                    | Uma seção da página que possui links que levarão a outra parte da página ou outras páginas.
+——————————————————————————
+<h1> - <h6>              | Títulos da página e de uma <section> dela. Use apenas um <h1> por página.
+<p>                      | Organiza o texto em um parágrafo.
+<ul>                     | Insere uma lista sem ordem.
+<ol>                     | Insere uma lista com ordem.
+<li>                     | Item das duas listas acima.
+——————————————————————————
+<meta [</>]>             | Metadados do arquivo; um exemplo é o charset.
+<a [</>]                 | Links.
+<img [</>]>              | Insere uma imagem.
+<link [</>]>             | Relaciona a página com um arquivo (normalmente um CSS).
+<script [</>]>           | Relaciona a página com um script (normalmente um JS).
+<input [</>]>            | Cria uma caixa em que o usuário possa interagir.
+<label [</>]>            | Mostra algo dependendo do <input>.
+<button [</>]>           | Cria um botão
+——————————————————————————
+<html lang="[</>]">      | Diz ao navegadr o idioma da página.
+<meta charset=[</>]>     | Diz ao navegador qual a codificação de caracteres. Use utf-8.
+<a href="[</>]">         | Relaciona um link a um texto.
+<a href="mailto:[</>]">  | Ao relacioná-lo a um texto, o mesmo irá te redirecionar ao envio de um E-Mail ao E-Mail especificado.
+<a target="[</>]">       | Colocado logo após href="", diz como o link será aberto. Use _blank para abrir em outra guia.
+<img src="[</>]">        | Origem da imagem (de onde o comando vai retirar).
+<img alt="[</>]">        | A descrição da imagem, caso ela não carregue.
+<link rel="[</>]">       | Define o tipo de relacionamento entre a página e outro arquivo.
+<link href="[</>]">      | Caminho para o arquivo.
+<input type="[</>]">     | Define o tipo de interação que o usuário pode fazer.
+<label for="[</>]">      | Indica ao quê este comando referencia.
+<button name="[</>]">    | Dá um nome ao botão.
+<button onclick="[</>]"> | Executa uma ação quando o botão for clicado.
+<[cmd] id="[</>]">       | Cria uma identificação para o CoManDo especificado, isso faz com que o comando não se repita. (Cheque a anotação no CSS.txt).
+<[cmd] class="[</>]">    | Cria um tipo de comando que pode abrigar vários. (Cheque a anotação no CSS.txt).
