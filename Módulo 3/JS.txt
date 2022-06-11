@@ -1,0 +1,9 @@
+</> = Espaço de preenchimento
+
+var </> = </>;       | Cria uma variável.
+const </> = </>;     | Cria uma constante (matemática?).
+function </>(</>) {} | Cria uma função que executará o código entre {}.
+——————————————————————
+console.log(</>)     | Faz o código entre () aparecer no terminal.
+——————————————————————
+`${</>} </>`         | Cria uma mensagem de texto colocando o valor de uma var, const, etc..
