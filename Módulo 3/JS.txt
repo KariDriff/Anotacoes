@@ -1,16 +1,47 @@
 </> = Espaço de preenchimento
 
-var </> = </>;       | Cria uma variável global.
-let </> = </>;       | Cria uma variável local.
-const </> = </>;     | Cria uma constante (matemática?).
+var </> = </>;                   | Cria uma variável global.
+let </> = </>;                   | Cria uma variável local.
+const </> = </>;                 | Cria uma constante (matemática?).
 
-Tipos de variáveis: 
-Boolean, Null, Undefined, Number, String, Array, Object e Function.
-——————————————————————
-function </>(</>) {} | Cria uma função que executará o código entre {}.
-——————————————————————
-console.log(</>);    | Faz o código entre () aparecer no terminal.
-——————————————————————
-alert("</>");        | Cria um alerta com a mensagem especificada.
-——————————————————————
-(`${</>} </>`);      | Cria uma mensagem de texto colocando o valor de uma var, const, etc..
+Tipos de variáveis:
+Primitivos: Number, String e Boolean. Compostos: Object, Array e Function. Outros: Empty, Null e Undefined.
+
+</> = {</>: </>};                | Transforma uma variável em um objeto.
+——————————————————————————————————
+function </>(</>) {}             | Cria uma função que executará o código entre {}.
+for (</>; </>; </>) {}           | Repete o código entre {} até a condição (2º espaço de peenchimento) ser falsa.
+for (</> in </>) {}              | Repete o código entre {} a partir de uma propriedade.
+for (</> of </>) {}              | Repete o código entre {} a partir de um valor.
+while (</>) {}                   | Repete o código entre {} enquanto a condição for verdadeira.
+do {</>} while (</>);            | Repete o código entre {} enquanto a condição em while for verdadeira.
+——————————————————————————————————
+console.log(</>);                | Faz o código entre () aparecer no terminal.
+console.clear();                 | Limpa o terminal.
+——————————————————————————————————
+</>.forEach(</> {});             | Adiciona uma função para cada elemento de um Array.
+</>.push(</>);                   | Adiciona um elemento no final de um Array.
+</>.unshift(</>);                | Adiciona um elemento no começo de um Array.
+</>.pop();                       | Remove um elemento do final de um Array.
+</>.shift();                     | Remove um elemento do começo de um Array.
+</>.indexOf(</>);                | Diz o índice de um elemento específico de um Array.
+</>.splice(</>);                 | Remove ou substitui um elemento de um Array de acordo com o índice especificado;
+</>.slice(</>);                  | Cria outro Array com os elementos de outro Array.
+</>.reverse();                   | Inverte a ordem dos itens de um Array.
+</>.every(item => item === </>); | Checa se todos os itens de um Array é igual a palavra/letra/número especificado.
+</>.some(item => item === </>);  | Checa se alguem item de um Array é igual a palavra/letra/número especificado.
+</>.concat(</>);                 | Concatena uma variável com outra variável.
+</>.split(</>);                  | "Divide" uma variável, motrando cada letra/número.
+</>.includes(</>);               | Mostra, com true ou false, se uma variável possui uma determinada palavra/letra/número.
+</>.startsWith(</>);             | Mostra, com true ou false, se uma variável começa com uma determinada palavra/letra/número.
+</>.endsWith(</>);               | Mostra, com true ou false, se uma variável termina com uma determinada palavra/letra/número.
+</>.replace(</>, </>);           | Modifica uma variável, substituindo algo por outra coisa.
+</>.toString(</>);               | Transforma uma variável não-String em uma String.
+Object.values(</>);              | Mostra todos os valores de um objeto.
+Math.floor(</>);                 | "Arredonda" o resultado de uma variável "para baixo".
+Math.ceil(</>);                  | "Arredonda" o resultado de uma variável "para cima".
+——————————————————————————————————
+alert("</>");                    | Cria um alerta com a mensagem especificada.
+prompt("</>");                   | Cria um alerta com uma caixa de texto para inserção.
+——————————————————————————————————
+`${</>} </>`;                    | Cria uma mensagem de texto colocando o valor de uma var, const, etc..
