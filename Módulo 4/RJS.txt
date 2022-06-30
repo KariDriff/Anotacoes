@@ -1,0 +1,82 @@
+———————————Instalação————————————
+1. Crie ou selecione uma pasta que você queira.
+
+2. Abra-a.
+
+3. Abra o cmd.
+
+4. Navegue, com o cmd, para a pasta selecionada.
+
+5. Escreva (ou cole) o seguinte comando:
+npm install -g create-react-app | Vai instalar a biblioteca React.
+
+6. Depois, escreva (ou cole) o seguinte comando:
+npm create-react-app reactapp4  | Vai instalar o React para uso. A última parte do comando é o nome da pasta que será criada para instalar, e você pode colocar qualquer outro nome.
+
+7. Depois escreva:
+cd reactapp4                    | Vai redirecionar para a pasta criada. Caso você utilizou outro nome, apenas substitua reactapp4 pelo nome da sua pasta.
+
+8. E, por fim, escreva:
+npm start                       | Roda o React no navegador padrão, usando o arquivo App.js na pasta src.
+
+——————————————Nota———————————————
+React é apenas uma biblioteca do JS, então tudo JS é usado no React. Por isso que este arquivo não é tão grande quanto os outros.
+
+————————————Comandos—————————————
+
+—————Git—————
+npm init    | Inicializa o npm na pasta.
+npm start   | Roda o React no navegador padrão, usando o arquivo index.js na pasta src (e o index.html na pasta public).
+npm install | Instala algo.
+npm i       | Mesma coisa.
+
+——————————————Anotações (de vdd)—————————————————
+Para usar uma função dentro da <div>, coloque-a entre {}.
+
+Para usar um componente na index.js, faça import "./Component.jsx";. Pode tirar o tipo de arquivo, se quiser.
+
+Ao colocar um componente dentro de outro componente na index.js, você deve colocar <div>{props.children}</div> dentro da <div> principal do componente pai.
+
+Toda vez que uma prop ou state é alterada, a página é recarregada.
+
+Para usar o return em uma classe, usa-se o render() {} como comando pai.
+
+Em package.json, você pode adicionar/editar comandos
+
+————————————Bases————————————
+Base para criação de uma index.js:
+
+/* Importações: */
+import React from "react";
+import ReactDOM from "react-dom";
+import './style.css';
+
+/* Conteúdo: */
+
+const App = () => {
+	
+}
+
+/* Saída: */
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+
+
+
+Base para a criação de Component.jsx:
+
+/* Importações */
+import React from "react";
+
+/* Conteúdo */
+
+function Component(props) {
+ return (
+	
+ );
+}
+
+/* Exportação */
+
+export default Button;
