@@ -10,8 +10,8 @@ Primitivos: Number, String e Boolean. Compostos: Object, Array e Function. Outro
 
 </>* </> = {</>: </>};           | Transforma uma variável em um objeto.                                                        || Tipo, Nome, Propriedade, Valor.
 ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-function </>(</>*) {}            | Cria uma função que executará o código entre {}.                                             || Nome, Parâmetro
-(function(</>*) {})();           | Expressão de Função de Invocação Imediata.
+function </>(</>*) {}            | Cria uma função que executará o código entre {}.                                             || Nome, Parâmetro.
+(function(</>*) {})();           | Expressão de Função de Invocação Imediata.                                                   || Parâmetro.
 </> </> = (</>*) => {</>}        | É uma function de seta.                                                                      || Tipo, Nome, Parâmetro, Função.
 for (</>; </>; </>) {}           | Repete o código entre {} até a condição (2º espaço de peenchimento) ser falsa.               || Variável Local, Condição, Função enquanto Condição for falsa.
 for (</>* </> in </>) {}         | Repete o código entre {} a partir de uma propriedade.                                        || Tipo, Propriedade, Variável.
@@ -55,7 +55,7 @@ clear();                         | Mesma coisa.
 </>.toString(</>*);              | Transforma uma variável não-String em uma String.                                            || Variável/array/objeto 1, ?.
 </>.call(</>);                   | Relacionado ao this, este chama o valor de this de um objeto.                                || Function, This's.
 </>.apply(</>);                  | Relacionado ao this, é a mesma coisa que o call, exceto que ele retorna valores como arrays. || Function, This's.
-</>.bind(</>);                   | Relacionado ao this, clona uma função em uma variável.                                       || Function, This's
+</>.bind(</>);                   | Relacionado ao this, clona uma função em uma variável.                                       || Function, This's.
 </>.addEventListener("</>", </>) | Cria um evento em uma variável.                                                              || Variável, Tipo do evento, Function.
 this.</>;                        | Retorna a propriedade que vem após o ponto.                                                  || Propriedade.
 Object.values(</>);              | Mostra todos os valores de um objeto.                                                        || Object.
