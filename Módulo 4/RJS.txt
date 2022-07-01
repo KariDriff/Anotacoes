@@ -11,9 +11,9 @@
 npm install -g create-react-app | Vai instalar a biblioteca React.
 
 6. Depois, escreva (ou cole) o seguinte comando:
-npm create-react-app reactapp4  | Vai instalar o React para uso. A última parte do comando é o nome da pasta que será criada para instalar, e você pode colocar qualquer outro nome.
+npx create-react-app reactapp4  | Vai instalar o React para uso. A última parte do comando é o nome da pasta que será criada para instalar, e você pode colocar qualquer outro nome.
 
-7. Depois escreva:
+7. Depois, escreva:
 cd reactapp4                    | Vai redirecionar para a pasta criada. Caso você utilizou outro nome, apenas substitua reactapp4 pelo nome da sua pasta.
 
 8. E, por fim, escreva:
@@ -24,11 +24,12 @@ React é apenas uma biblioteca do JS, então tudo JS é usado no React. Por isso
 
 ————————————Comandos—————————————
 
-—————Git—————
-npm init    | Inicializa o npm na pasta.
-npm start   | Roda o React no navegador padrão, usando o arquivo index.js na pasta src (e o index.html na pasta public).
-npm install | Instala algo.
-npm i       | Mesma coisa.
+——————————Git—————————
+npm init             | Inicializa o npm na pasta.
+npm start            | Roda o React no navegador padrão, usando o arquivo index.js na pasta src (e o index.html na pasta public).
+npm install          | Instala algo.
+npm i                | Mesma coisa.
+npm create-react-app | Cria uma pasta que usará o ReactApp
 
 ——————————————Anotações (de vdd)—————————————————
 Para usar uma função dentro da <div>, coloque-a entre {}.
