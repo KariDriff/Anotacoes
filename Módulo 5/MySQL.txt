@@ -1,0 +1,20 @@
+</> = Espaço de preenchimento
+
+——————————————Comandos——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+——————————————De início—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+CREATE TABLE </>                                                | Cria algo.                                                                      || Nome da Table.
+INSERT INTO </> (</>) VALUES (</>)                              | Insere uma nova linha preenchendo os atributos com os valores fornecidos.       || Table, Atributo, Valor.
+SELECT </> FROM </>                                             | Seleciona um atributo de uma table.                                             || Atributo, Table.
+SELECT </> FROM </> ORDER BY </>                                | Organiza as linhas de uma TABLE de acordo com um atributo.                      || Atributo 1, Table, Atributo 2.
+SELECT </> FROM </> ORDER BY </> DESC                           | Organiza as linhas de uma TABLE de acordo com um atributo na ordem decrescente. || Atributo 1, Table, Atributo 2.
+SELECT </> FROM </> ORDER BY </> ASC                            | Organiza as linhas de uma TABLE de acordo com um atributo na ordem crescente.   || Atributo 1, Table, Atributo 2.
+SELECT </> FROM </> JOIN </> ON </>.</> = </>.</>               | Junta diferentes linhas em uma coluna.                                          || Atributo 1, Table, Atributo 2, Coluna, Atributo 2, Key.
+SELECT </> FROM </> AS </> JOIN </> AS </> ON </>.</> = </>.</> | Junta diferentes linhas em uma coluna dando apelidos à TABLE e ao atributo.     || Atributo 1, Table, Apelido da Table, Atributo 2, Apelido do Atributo 2, Apelido da Table, Coluna, Apelido do atributo 2, Key.
+SELECT COUNT(</>), </> FROM </> GROUP BY </>                    | Conta a quantidade de linhas que uma entrada um mesmo atributo tem.             || Atributo qualquer, Atributo 1, Table, Atributo 1.
+UPDATE </> SET </>=</>                                          | Atualiza (reescreve) um atributo de uma TABLE.                                  || Table, Atributo, Valor.
+UPDATE </> SET </>=</> WHERE </>=</>                            | Atualiza (reescreve) um atributo de uma TABLE que possui uma PRIMARY KEY.       || Table, Atributo, Valor, Key, Valor da Key.
+DELETE FROM </> WHERE </>=</>                                   | Apaga (irreversivelmente) um atributo de uma TABLE.                             || Table, Key, Valor da Key.
+ALTER TABLE </> ADD </> </>                                     | Adiciona um novo atributo a uma TABLE.                                          || Table, Novo atributo, Tipo do novo atributo.
+ALTER TABLE </> ADD </> </> AFTER </>                           | Adiciona um novo atributo a uma TABLE após outro atributo.                      || Table, Novo atributo, Tipo do novo atributo, Atributo 2. 
+ALTER TABLE </> ADD </> </> BEFORE </>                          | Adiciona um novo atributo a uma TABLE antes de outro atributo.                  || Table, Novo atributo, Tipo do novo atributo, Atributo 2. 
