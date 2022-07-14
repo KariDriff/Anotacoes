@@ -1,0 +1,24 @@
+</> = Espaço de preenchimento
+
+—————Declarações—————
+
+————Visibilidade——————————————————————————————————————————————————————————————————————————————
+public </>          | Declara uma variável, classe, etc. como pública.                      || Modificador.
+private </>         | Declara uma variável, classe, etc. como privada.                      || Modificador.
+protected </>       | Declara uma variável, classe, etc. como protegida.                    || Modificador.
+————Modificadores—————————————————————————————————————————————————————————————————————————————
+static </>          | Define o valor da classe, variável, etc. como estático.               || Tipo.
+final </>           | Define o valor da classe, variável, etc. como absoluto.               || Tipo.
+———————Tipos——————————————————————————————————————————————————————————————————————————————————
+long </> = </>l;    | Versão maior do int (64b), que serve o mesmo propósito.               || Nome, Valor.
+int </> = </>;      | Declara a variável como INTeira (32b).                                || Nome, Valor.
+short </> = </>;    | Versão menor do int (16b), serve o mesmo propósito.                   || Nome, Valor.
+byte </> = </>;     | Versão ainda menor (8b), servindo o mesmo propósito.                  || Nome, Valor.
+double </> = </>d;  | Declara a variável como fracionária (64b).                            || Nome, Valor.
+float </> = </>f;   | Versão menor do double (32b), servindo o mesmo propósito.             || Nome, Valor.
+String </> = "</>"; | Declara a variável como String (texto).                               || Nome, Valor.
+char </> = '</>';   | Dá o valor de um caractere a uma variável.                            || Nome, Valor.
+boolean </> = </>;  | Dá um valor de true ou false a uma variável.                          || Nome, True/False.
+
+———————Comandos——————
+sout                | Abreviação para System.out.println(</>);, imprime uma linha de texto. || Texto, variável, etc..
