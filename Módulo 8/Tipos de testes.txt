@@ -1,0 +1,21 @@
+Tipos de testes
+
+Funcional
+
+Avalia as funções que o sistema deveria fazer;
+Leva em conta os requisitos, relatos e casos de uso.
+
+Não-funcional
+
+Avalia a usabilidade, eficiência, segurança, entre outros.
+
+Caixa-branca
+
+Avalia a estrutura interna do sistema;
+Checa o código-fonte, a arquitetura e o fluxo de dados;
+Faz uma cobertura de código com testes de unidade ou de integração.
+
+De mudanças
+
+Confirmação: Reteste (ver ciclo de vida do bug)
+Regressão: verifica efeitos colaterais naa alteração de um elemento.

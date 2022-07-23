@@ -1,0 +1,17 @@
+Planejamento
+
+O que causou a necessidade do teste;
+Planejar o que será feito;
+Análise externa.
+
+Execução
+
+Fazer o teste;
+Analisar a reação do programa;
+Coletar informações.
+
+Conclusão
+
+Juntar informações e enviá-las ao desenvolvedor;
+Orientar o que deve ser corrigido ou se foi bem sucedido;
+Dar dicas.

@@ -1,0 +1,7 @@
+Tipos de visão de qualidade:
+
+Transcendental   | Qualidade vem da experiência, sem definição.
+Do usuário       | Qualidade é de acordo com as necessidades.
+De manufatura    | Qualidade é relacionanda com conformidade aos requerimentos.
+De produto       | A qualidade interna do produto causam impacto na externa.
+Baseada em valor | Qualidade vem do "custo-benefício" da visão do usuário.

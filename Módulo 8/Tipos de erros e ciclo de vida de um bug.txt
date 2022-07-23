@@ -1,0 +1,22 @@
+Tipos de erros:
+
+Erro    | Resultado incorreto devido a uma ação humana.
+Defeito | Imperfeição ou deficiência na execução dos requerimentos
+Falha   | Devido ao sistema não conseguir funcionar.
+
+Ciclo de vida do erro:
+
+Novo              | Defeito identificado pela primeira vez.
+Aceito            | Defeito foi aceito para revisão dos desenvolvedores.
+Aberto            | Defeito está em fase de correção.
+Resolvido         | Defeito foi resolvido.
+À espera de Teste | Defeito está esperando ser testado.
+Teste             | Defeito está sendo estado para validação.
+Verificado        | Defeito corrigido.
+Fechado           | Defeito foi totalmente validado e corrigido.
+
+Reaberto          | O defeito não foi corrigido.
+Duplicado         | O defeito já existia.
+Rejeitado         | O defeito não é novo.
+Adiado            | O defeito será corrigido no futuro.
+Não é um defeito  | O defeito não é realmente um defeito.
